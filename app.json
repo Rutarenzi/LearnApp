@@ -17,15 +17,21 @@
     "ios": {
       "supportsTablet": true
     },
+    "plugins": ["@react-native-google-signin/google-signin"],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.learntutorial.LearnApp"
     },
-    "package":"com.LearnApp",
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "35b94b8a-8b05-4e63-8061-c09262882ac9"
+      }
     }
   }
 }
