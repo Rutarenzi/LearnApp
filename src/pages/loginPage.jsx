@@ -1,7 +1,8 @@
 import React, {useRef}from "react";
 import { View,PanResponder,Animated, Text, Image,SafeAreaView,StyleSheet} from "react-native";
-import Colors from "../shared/colors";
+import Colors from "../shared/Colors";
 import { AntDesign } from '@expo/vector-icons';
+import Auth from "../components/Auth";
 
 const LoginPage=()=>{
     const panResponder = useRef(
@@ -43,6 +44,7 @@ const LoginPage=()=>{
                     <AntDesign name="google" size={24} color="white" />
                         <Text style={{color: "white"}}> Sign up with Google</Text>
                     </View>
+                    <Auth/>
                 </View> 
                 </Animated.View>
         </SafeAreaView>

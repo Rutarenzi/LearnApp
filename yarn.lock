@@ -2468,6 +2468,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-google-signin/google-signin@npm:^10.1.0":
+  version: 10.1.0
+  resolution: "@react-native-google-signin/google-signin@npm:10.1.0"
+  peerDependencies:
+    expo: ">=47.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    expo:
+      optional: true
+  checksum: 8345b4ca781a1052a54e963dcbea24254ad797801adbe88d55fa390c8405090f3b606e0843e5b1a37f3d58d26dfaad0b9fee14f03343b49b4b830e542b47068a
+  languageName: node
+  linkType: hard
+
 "@react-native/assets-registry@npm:^0.72.0":
   version: 0.72.0
   resolution: "@react-native/assets-registry@npm:0.72.0"
@@ -4291,6 +4305,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"expo-splash-screen@npm:~0.20.5":
+  version: 0.20.5
+  resolution: "expo-splash-screen@npm:0.20.5"
+  dependencies:
+    "@expo/prebuild-config": 6.2.6
+  peerDependencies:
+    expo: "*"
+  checksum: c4b0db3d0e8ab755a9f4afb1f20824229fa84ea2410528e4316a62e676e08f990157c9edd4af0978f79183d6b47cf3d4843b86f76c084274a40e07adfd697889
+  languageName: node
+  linkType: hard
+
 "expo-status-bar@npm:~1.6.0":
   version: 1.6.0
   resolution: "expo-status-bar@npm:1.6.0"
@@ -5648,7 +5673,9 @@ __metadata:
   resolution: "learnapp@workspace:."
   dependencies:
     "@babel/core": ^7.20.0
+    "@react-native-google-signin/google-signin": ^10.1.0
     expo: ~49.0.15
+    expo-splash-screen: ~0.20.5
     expo-status-bar: ~1.6.0
     react: 18.2.0
     react-native: 0.72.6
